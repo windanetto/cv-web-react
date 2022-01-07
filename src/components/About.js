@@ -5,7 +5,7 @@ import { FiGithub } from 'react-icons/fi';
 export const About = () => {
   return (
     <Flex w='75%' flexDir='column' justifyContent='center' padding='8vh'>
-      <Flex w='100%' flexDir='column' justifyContent='center'>
+      <Flex w='100%' flexDir='column'>
         <Text fontSize='6xl' fontWeight='bold'>
           Winda
           <span style={styles.textColor}> Agusthia</span>
@@ -25,7 +25,7 @@ export const About = () => {
         </Text>
       </Flex>
 
-      <Flex w='100%' flexDir='column' justifyContent='center' display='inline' mt={30}>
+      <Flex w='100%' flexDir='column' display='inline' mt={30}>
         <Link 
           backgroundColor='#333e2d' 
           display='inline-flex' 

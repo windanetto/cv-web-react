@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Saira-Regular';
+  src: url('./font/SairaExtraCondensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Saira-Bold';
+  src: url('./font/SairaExtraCondensed-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Saira-SemiBold';
+  src: url('./font/SairaExtraCondensed-SemiBold.ttf');
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Saira-Regular !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333e2d !important;
+}
+
+code {
+  font-family: Saira-Regular;
+}
+
+
+
